@@ -61,3 +61,33 @@
   font-size: 5em;
   padding: 8px;
 }
+
+.project-grid {
+  background: #3C3B3F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.project-grid h1 {
+  /*position: fixed;
+  top: 0;*/
+  font-size: 25px;
+  color: #c9d6ff;
+}
+
+.project-grid p {
+  /*position: fixed;
+  top: 0;*/
+  font-size: 19px;
+  color: rgba(0, 255, 0, 0.5);
+}
+
+.project-cell {
+  border-color: #DBDBDB;
+  border-radius: 10px;
+  border-style: dotted;
+  border-width: thin;
+}
