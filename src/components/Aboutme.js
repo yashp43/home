@@ -13,6 +13,7 @@ class Contacts extends React.Component {
               alt="avatar"
               style={{height:'250px'}}
             />
+            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Passionate Footballer, Diehard Real Madrid Fan, Zealous Programmer, Enthusiastic traveller, Food Lover and possess Blackbelt in Martial Arts.</p>
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>

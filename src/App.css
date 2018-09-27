@@ -130,6 +130,11 @@
   margin: auto;
 }
 
+.aboutme-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
 .aboutme-list i{
   font-size: 66px;
   padding-right: 5rem;
@@ -139,4 +144,15 @@
 .resume-right-col {
   background: #27221F;
   color: white;
+}
+
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+.education-grid h4 {
+  padding-top: 0em;
+
 }
