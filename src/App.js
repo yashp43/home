@@ -9,20 +9,18 @@ class App extends Component {
     return (
       <div>
         <Layout fixedHeader>
-          <Header className="header-color" title="Yash Prajapati" scroll>
+          <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Yash Prajapati</Link>} scroll>
               <Navigation>
-                  <Link to="/">Home</Link>
-                  <Link to="/aboutme">About Me</Link>
                   <Link to="/projects">Projects</Link>
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/aboutme">About Me</Link>
+                  <Link to="/resume">Resume</Link>
               </Navigation>
           </Header>
-          <Drawer title="Yash Prajapati">
+          <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">Yash Prajapati</Link>}>
               <Navigation>
-                <Link to="/">Home</Link>
-                <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/aboutme">About Me</Link>
+                <Link to="/resume">Resume</Link>
               </Navigation>
           </Drawer>
           <Content>
