@@ -62,10 +62,17 @@
   padding: 8px;
 }
 
+.project-div {
+  background: #eacda3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 .project-grid {
-  background: #3C3B3F;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*  background: #000000;  /* fallback for old browsers */
+/*  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+/*  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #27221F;
   width: 100%;
   margin: auto;
   border-radius: 10px;
@@ -82,16 +89,20 @@
 
 .project-grid p {
   /*position: fixed;
-  top: 0;*/
+  top: 0;
+  background: #27221F;*/
+  color: white;
   font-size: 19px;
-  color: rgba(0, 230, 0, 0.5);
 }
 
+
 .project-cell {
-  border-color: #DBDBDB;
+/*  border-color: #DBDBDB;
   border-radius: 10px;
   border-style: dotted;
-  border-width: thin;
+  border-width: thin;*/
+
+  color: white;
 }
 
 .project-cell a {
