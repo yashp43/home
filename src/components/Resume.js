@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
+import profile_img from '../images/Yash_Profile_Pic.jpg';
 
 class Resume extends React.Component {
   render() {
@@ -12,7 +13,7 @@ class Resume extends React.Component {
       <Cell col={4}>
         <div style={{textAlign: 'left'}}>
           <img
-              src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+              src={profile_img}
               alt="avatar"
               style={{height: '200px'}}
           />
@@ -24,7 +25,7 @@ class Resume extends React.Component {
         <p>Passionate about Coding. Likes to keep rendering myself with new ideas and technologies over time.
           Zealous about learning new things.</p>
         <h5>Address</h5>
-        <p>36/401 Prabhudarshan Apartment, Bigbazzar Vesu Road, Piplod, Surat, Gujarat</p>
+        <p>36/401 Prabhudarshan Apartment, Bigbazzar Vesu Road, Piplod, Surat, Gujarat - 395007</p>
         <h5>Phone</h5>
         <p>+91 8460782133/+91 8320480296</p>
         <h5>Email</h5>

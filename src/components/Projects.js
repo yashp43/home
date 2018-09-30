@@ -21,8 +21,7 @@ class Projects extends React.Component {
             <hr style={{borderTop: '3px solid #e22947'}} />
 
             <h1>Restaurant Management System</h1>
-            <p>A GUI screen that contains menu of a Restaurant allowing every user to stack up desired items and create an order.</p>
-            <p>Once the cart is ready, the user can place an order through the System.</p>
+            <p>A GUI screen that lists items containing the menu. The users selects items as desired and stacks up those items which they wish to order. As soon as the users is done with the selection of items, they can order the them by clicking the order button.</p>
             <a>Visual C++ | MS Access</a>
           </Cell>
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import profile_img from '../images/Yash_Profile_Pic.jpg';
 
 class Contacts extends React.Component {
   render() {
@@ -9,7 +10,7 @@ class Contacts extends React.Component {
           <Cell col={6}>
             <h2>Yash Prajapati</h2>
             <img
-              src="https://images.vexels.com//media/users/3/145908/preview2/52eabf633ca6414e60a7677b0b917d92-male-avatar-maker.jpg"
+              src={profile_img}
               alt="avatar"
               style={{height:'250px'}}
             />
@@ -37,7 +38,7 @@ class Contacts extends React.Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                   <i className="fa fa-skype" aria-hidden="true" />
-                  yashp43
+                  crazyash777
                   </ListItemContent>
                 </ListItem>
 
